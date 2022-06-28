@@ -9,12 +9,12 @@ import Portfolio from "../Portfolio/Portfolio";
 function App() {
   return (
     <div>
-      <Container>
-        <Row>
-          <Col className="bg-secondary">
+      <Container fluid className="vh-100 d-flex flex-column g-0">
+        <Row className="h-100 g-0">
+          <Col s={12} md={4} className="col-spacing">
             <Bio />
           </Col>
-          <Col className="bg-danger">
+          <Col s={12} md={8} className="bg-danger col-spacing">
             <Portfolio />
           </Col>
         </Row>
