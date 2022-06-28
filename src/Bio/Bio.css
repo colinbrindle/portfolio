@@ -1,19 +1,9 @@
-/* 
-.container {
+.hov-container {
     position: relative;
     width: 100%;
 }
-  
-.image {
-    width: 100%;
-    height:100vh;
-}
 
-.image-scale {
-    object-fit: fill;
-}
-  
-.overlay {
+.hov-overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -23,14 +13,16 @@
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #00000055;
+    background-color: #000000af;
 }
 
-.container:hover .overlay {
+.hov-container:hover .hov-overlay{
     opacity: 1;
 }
 
-.text {
+/* For media query: when screen size is small, set opacity in hov-container and hov-overlay to 1 (always opaque) */
+
+.hov-text {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -39,9 +31,9 @@
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    text-align: center;
+    text-align: start;
+    width: 80%;
 }
- */
 
 .bio-body {
     height: 100vh;
@@ -52,4 +44,9 @@
     background-color: green;
     width: 100%;
     height: 100%;
+}
+
+.img-sizing {
+    height: 100vh;
+    object-fit: cover;
 }
