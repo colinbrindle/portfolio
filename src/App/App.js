@@ -13,10 +13,10 @@ function App() {
       <Nav />
       <Container fluid className="d-flex flex-column g-0">
         <Row className="g-0">
-          <Col s={12} md={4}>
+          <Col s={12} md={6} xl={4}>
             <Bio />
           </Col>
-          <Col s={12} md={8} className="bg-danger">
+          <Col s={12} md={6} xl={8} className="bg-danger">
             <Portfolio />
           </Col>
         </Row>
