@@ -36,8 +36,9 @@
 }
 
 .bio-body {
-    height: 100vh;
+    height: 95vh;
     padding: 0%;
+    /* height at 95vh to account for navbar */
 }
 
 .img-container {
@@ -47,6 +48,6 @@
 }
 
 .img-sizing {
-    height: 100vh;
+    height: 95vh;
     object-fit: cover;
 }
