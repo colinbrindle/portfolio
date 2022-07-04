@@ -36,18 +36,18 @@
 }
 
 .bio-body {
-    height: 95vh;
+    height: 96vh;
     padding: 0%;
-    /* height at 95vh to account for navbar */
+    background-color: black;
+    /* height at 96vh to account for navbar */
 }
 
 .img-container {
-    background-color: green;
     width: 100%;
     height: 100%;
 }
 
 .img-sizing {
-    height: 95vh;
+    height: 96vh;
     object-fit: cover;
 }
