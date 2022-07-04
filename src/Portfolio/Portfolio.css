@@ -9,17 +9,17 @@
     height: 50;
 }
 
-.item {
-    width: 50%;
-    margin: 0;
-    padding: 0;
-}
-/* Add media query to update item width to 100% on medium and small screens */
-
-.item-fit {
-    object-fit: cover;
+.item-box {
+    width: 560px;
+    height: 100%;
 }
 
 .placeholder-item {
     color: white;
+}
+
+.image-sizing{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
