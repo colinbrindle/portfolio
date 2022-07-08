@@ -38,8 +38,15 @@ function Bio() {
                 hike!
               </p>
               <p>
-                If you like what you see here, don't hesitate to reach out by
-                navigating to my <a href="#Contact">contact form</a>.
+                If you like what you see here, don't hesitate to reach out
+                through{" "}
+                <a
+                  href="https://www.linkedin.com/in/colin-brindle"
+                  target="_blank"
+                >
+                  LinkedIn
+                </a>
+                .
               </p>
             </div>
           </div>

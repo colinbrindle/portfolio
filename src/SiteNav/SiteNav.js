@@ -25,8 +25,8 @@ function SiteNav() {
             >
               LinkedIn
             </Nav.Link>
-            <Navbar.Text>/</Navbar.Text>
-            <Nav.Link href="#">Contact</Nav.Link>
+            {/* <Navbar.Text>/</Navbar.Text>
+            <Nav.Link href="#">Contact</Nav.Link> */}
           </Nav>
         </div>
       </Container>
