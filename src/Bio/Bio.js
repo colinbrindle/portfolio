@@ -14,7 +14,8 @@ function Bio() {
           <Image fluid src={headshot} className="img-sizing"></Image>
           <div className="hov-overlay">
             <div className="hov-text">
-              <h1>Hi, I'm Colin! 歡迎您來到我的網站！</h1>
+              <h1>Hi, I'm Colin!</h1>
+              <h1>歡迎您來到我的網站！</h1>
               <p>
                 Welcome to my portfolio page! It's a pleasure to{" "}
                 <strong>
