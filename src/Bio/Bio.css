@@ -13,5 +13,6 @@
 
 .img-sizing {
     height: 96vh;
+    width: 100%;
     object-fit: cover;
 }
