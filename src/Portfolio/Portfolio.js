@@ -1,69 +1,36 @@
 import React from "react";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Row, Image, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import "./Portfolio.css";
 
-import unn from "./imgs/unn.png";
-import tiw from "./imgs/thisiswar.png";
-import tiw2 from "./imgs/thisiswar2.png";
-import mossii from "./imgs/drmossii.png";
-import placeholderImg from "./imgs/placeholder.png";
+// Importing portfolio components
+import Pedestal from "./Components/Pedestal";
+import TIW from "./Components/TIW";
+import UNN from "./Components/UNN";
+import Mossii from "./Components/Mossii";
+import Placeholder from "./Components/Placeholder";
 
 function Portfolio() {
   return (
     <Container fluid className="port-container">
       <Row>
         <Col s={12}>
-          <div className="pedestal">
-            <Image
-              fluid
-              src={tiw2}
-              alt="Image of This is War 2 landing page"
-            ></Image>
-          </div>
+          <Pedestal />
         </Col>
       </Row>
       <Row className="g-0">
         <Col s={12} xl={6}>
-          <div className="item-box">
-            <Image
-              fluid
-              src={tiw}
-              alt="Image of This is War landing page"
-              className="image-sizing"
-            ></Image>
-          </div>
+          <TIW />
         </Col>
         <Col s={12} xl={6}>
-          <div className="item-box">
-            <Image
-              fluid
-              src={unn}
-              alt="Image of Ukraine News Now news page"
-              className="image-sizing"
-            ></Image>
-          </div>
+          <UNN />
         </Col>
         <Col s={12} xl={6}>
-          <div className="item-box">
-            <Image
-              fluid
-              src={mossii}
-              alt="Still from Dr Mossii promotional video"
-              className="image-sizing"
-            ></Image>
-          </div>
+          <Mossii />
         </Col>
         <Col s={12} xl={6}>
-          <div className="item-box">
-            <Image
-              fluid
-              src={placeholderImg}
-              alt="Placeholder image for new projects"
-              className="image-sizing"
-            ></Image>
-          </div>
+          <Placeholder />
         </Col>
       </Row>
     </Container>

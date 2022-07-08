@@ -1,3 +1,4 @@
+/* Hover overlay CSS */
 .hov-container {
     position: relative;
     width: 100%;
@@ -35,6 +36,7 @@
     width: 80%;
 }
 
+/* Bio component CSS */
 .bio-body {
     height: 96vh;
     padding: 0%;

@@ -4,6 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap";
 import { Container, Navbar, Nav } from "react-bootstrap";
 
+// UPDATE NAVBAR TO BE COLLAPSABLE LOOKS WEIRD RN
+
 function SiteNav() {
   return (
     <Navbar sticky="top" expand="lg" variant="dark" bg="dark">
