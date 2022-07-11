@@ -13,12 +13,15 @@ function Pedestal() {
         <div className="hov-text">
           <h1>This is War 2</h1>
           <div>
-            This project is a full stack MERN web application that allows users
-            to sign up, create and equip champions, and fight bosses.
-          </div>
-          <div>
-            <a>Role / Responsibilities:</a> Project Manager, Front-End Concept &
-            Design, Landing Page, Log in / Sign-up function
+            <p>
+              This project is a full stack MERN web application that allows
+              users to sign up, create and equip champions, and fight bosses.
+              Other technologies utilized include React BootStrap, Bcrypt, JWT.
+            </p>
+            <p>
+              <a>Role / Responsibilities:</a> Project Manager, Front-End Concept
+              & Design, Landing Page, Log In / Sign-Up Function
+            </p>
           </div>
           <a href="http://this-is-war-2.herokuapp.com/" target="_blank">
             <Image

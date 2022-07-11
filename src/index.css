@@ -43,7 +43,7 @@ code {
 
 .hov-text {
   color: white;
-  font-size: 20px;
+  font-size: 1.5rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -54,14 +54,35 @@ code {
   width: 80%;
 }
 
+.icon-size {
+  height: 6rem;
+  width: auto;
+  margin: 1rem 2.5rem 0 0;
+}
+
 .hov-container h1 {
   font-weight: bold;
 }
 
 .hov-container div {
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 .hov-container a {
   font-weight: bold;
+}
+
+/* Hover overlay for non-pedestal items */
+.item-box .hov-text {
+  font-size: 1rem;
+}
+
+.item-box h1 {
+  font-size: 1.5rem;
+}
+
+.item-box .icon-size {
+  height: 4rem;
+  width: auto;
+  margin: 0.5rem 1.5rem 0 0;
 }
