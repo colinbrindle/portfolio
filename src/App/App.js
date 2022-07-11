@@ -9,26 +9,14 @@ import Portfolio from "../Portfolio/Portfolio";
 
 function App() {
   return (
-    // <>
-    //   <Container fluid className="d-flex flex-column g-0 bg-black">
-    //     <Row>
-    //       <SiteNav />
-    //     </Row>
-    //     <Row className="g-0">
-    //       <Col s={12} md={6} xl={4}>
-    //         <Bio />
-    //       </Col>
-    //       <Col s={12} md={6} xl={8}>
-    //         <Portfolio />
-    //       </Col>
-    //     </Row>
-    //   </Container>
-    // </>
-
     <div>
       <div className="main-grid">
-        <Bio />
-        <Portfolio />
+        <article>
+          <Bio />
+        </article>
+        <article className="port-container">
+          <Portfolio />
+        </article>
       </div>
       <SiteNav />
     </div>

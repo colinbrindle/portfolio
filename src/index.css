@@ -39,10 +39,20 @@
   margin-left: 4rem;
 }
 
-/* Main grid layout */
+/* Grid layout */
 .main-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 2fr;
+}
+
+.grid-col-over-2 {
+  grid-column: span 2; 
+}
+
+.port-container {
+  height: 100vh;
+  width: auto;
+  overflow: auto;
 }
 
 /* Hover overlay CSS */
