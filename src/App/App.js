@@ -9,19 +9,26 @@ import Portfolio from "../Portfolio/Portfolio";
 
 function App() {
   return (
-    <>
+    // <>
+    //   <Container fluid className="d-flex flex-column g-0 bg-black">
+    //     <Row>
+    //       <SiteNav />
+    //     </Row>
+    //     <Row className="g-0">
+    //       <Col s={12} md={6} xl={4}>
+    //         <Bio />
+    //       </Col>
+    //       <Col s={12} md={6} xl={8}>
+    //         <Portfolio />
+    //       </Col>
+    //     </Row>
+    //   </Container>
+    // </>
+
+    <div>
+      <Bio />
       <SiteNav />
-      <Container fluid className="d-flex flex-column g-0 bg-black">
-        <Row className="g-0">
-          <Col s={12} md={6} xl={4}>
-            <Bio />
-          </Col>
-          <Col s={12} md={6} xl={8}>
-            <Portfolio />
-          </Col>
-        </Row>
-      </Container>
-    </>
+    </div>
   );
 }
 
