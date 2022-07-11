@@ -26,7 +26,10 @@ function App() {
     // </>
 
     <div>
-      <Bio />
+      <div className="main-grid">
+        <Bio />
+        <Portfolio />
+      </div>
       <SiteNav />
     </div>
   );

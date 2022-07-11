@@ -1,18 +1,19 @@
 /* Bio component CSS */
 .bio-body {
     height: 100vh;
-    padding: 0%;
+    padding: 0;
     background-color: black;
     /* height at 94vh to account for navbar (6vh)*/
 }
 
 .img-container {
-    width: 100%;
-    height: 100%;
+    width: calc(100vw/3);
+    height: inherit;
 }
 
 .img-sizing {
-    height: auto;
-    width: 100%;
-    object-fit: cover;
+    width: inherit;
+    /* height: 100vh; */
+    height: inherit;
+    object-fit:cover;
 }

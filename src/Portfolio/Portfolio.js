@@ -13,27 +13,41 @@ import Placeholder from "./Components/Placeholder";
 
 function Portfolio() {
   return (
-    <Container fluid className="port-container">
-      <Row>
-        <Col s={12}>
-          <Pedestal />
-        </Col>
-      </Row>
-      <Row className="g-0">
-        <Col s={12} xl={6}>
-          <TIW />
-        </Col>
-        <Col s={12} xl={6}>
-          <UNN />
-        </Col>
-        <Col s={12} xl={6}>
-          <Mossii />
-        </Col>
-        <Col s={12} xl={6}>
-          <Placeholder />
-        </Col>
-      </Row>
-    </Container>
+    // <Container fluid className="port-container">
+    //   <Row>
+    //     <Col s={12}>
+    //       <Pedestal />
+    //     </Col>
+    //   </Row>
+    //   <Row className="g-0">
+    //     <Col s={12} xl={6}>
+    //       <TIW />
+    //     </Col>
+    //     <Col s={12} xl={6}>
+    //       <UNN />
+    //     </Col>
+    //     <Col s={12} xl={6}>
+    //       <Mossii />
+    //     </Col>
+    //     <Col s={12} xl={6}>
+    //       <Placeholder />
+    //     </Col>
+    //   </Row>
+    // </Container>
+    <main className="portfolio-grid">
+      <article>
+        <Pedestal />
+      </article>
+      <article>
+        <TIW />
+      </article>
+      <article>
+        <UNN />
+      </article>
+      <article>
+        <Mossii />
+      </article>
+    </main>
   );
 }
 

@@ -39,6 +39,12 @@
   margin-left: 4rem;
 }
 
+/* Main grid layout */
+.main-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 /* Hover overlay CSS */
 .hov-container {
   position: relative;
