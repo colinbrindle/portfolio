@@ -24,8 +24,11 @@ function TIW() {
               <strong>
                 <i>highly coveted</i>
               </strong>{" "}
-              This is War series). The site utilizes Node.js, MySQL, Express
-              Sessions, Handlebars, Dotenv, Bcrypt, and BootStrap.
+              This is War series).
+            </p>
+            <p>
+              <a>Technologies:</a> Node.js, MySQL, Express Sessions, Handlebars,
+              Dotenv, Bcrypt, and BootStrap.
             </p>
             <p>
               <a>Role / Responsibilities:</a> MySQL Database, Log In / Log Out

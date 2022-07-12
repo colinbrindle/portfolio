@@ -74,7 +74,7 @@
   background-color: #000000af;
 }
 
-.hov-container:hover .hov-overlay{
+.hov-container:hover .hov-overlay {
   opacity: 1;
 }
 

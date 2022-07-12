@@ -3,7 +3,6 @@
     height: 100vh;
     padding: 0;
     background-color: black;
-    /* height at 94vh to account for navbar (6vh)*/
 }
 
 .img-container {
@@ -13,7 +12,11 @@
 
 .img-sizing {
     width: inherit;
-    /* height: 100vh; */
     height: inherit;
     object-fit:cover;
+}
+
+.chinese-text {
+    font-weight: lighter;
+    font-size: 1.8em;
 }

@@ -15,8 +15,13 @@ function Pedestal() {
           <div>
             <p>
               This project is a full stack MERN web application that allows
-              users to sign up, create and equip champions, and fight bosses.
-              Other technologies utilized include React BootStrap, Bcrypt, JWT.
+              users to sign up, create and equip their champions, and fight
+              bosses. My designs were heavily inspired by classic 16-bit
+              medieval fantasy games.
+            </p>
+            <p>
+              <a>Technologies:</a> MongoDB, Express, React, Node.js, React
+              BootStrap, Bcrypt, JWT
             </p>
             <p>
               <a>Role / Responsibilities:</a> Project Manager, Front-End Concept
