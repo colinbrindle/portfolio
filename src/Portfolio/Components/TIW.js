@@ -32,7 +32,11 @@ function TIW() {
               Function, Landing Page Design
             </p>
           </div>
-          <a href="http://thisiswar.herokuapp.com/" target="_blank">
+          <a
+            href="http://thisiswar.herokuapp.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Image
               fluid
               src={tiwLogo}
@@ -40,7 +44,11 @@ function TIW() {
               className="icon-size"
             ></Image>
           </a>
-          <a href="https://github.com/jdmill/this-is-war" target="_blank">
+          <a
+            href="https://github.com/jdmill/this-is-war"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Image
               fluid
               src={GitHub}

@@ -7,7 +7,7 @@
   align-items: center;
   justify-content: space-between;
   background: rgba(0, 0, 0, 0.90);
-  height: 6vh;
+  height: 4em;
   position: fixed;
   top: 0;
   width: 100%;
@@ -16,15 +16,15 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  gap: var(--gap, 1.5rem);
-  margin-right: 4rem;
+  gap: var(--gap, 2em);
+  margin-right: 4em;
 }
 
 .primary-nav-link {
   text-decoration: none;
   color: white;
   font-style: italic;
-  font-size: 1.3rem;
+  font-size: 1.3em;
   font-weight: 200;
 }
 
@@ -33,10 +33,10 @@
 }
 
 .logo {
-  margin: 2rem;
-  width: 4rem;
+  margin: 2em;
+  width: 4em;
   height: auto;
-  margin-left: 4rem;
+  margin-left: 4em;
 }
 
 /* Grid layout */
@@ -82,7 +82,7 @@
 
 .hov-text {
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.2em;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -94,9 +94,9 @@
 }
 
 .icon-size {
-  height: 6rem;
+  height: 4em;
   width: auto;
-  margin: 1rem 2.5rem 0 0;
+  margin-right: 2em;
 }
 
 .hov-container h1 {
@@ -104,7 +104,7 @@
 }
 
 .hov-container div {
-  margin-bottom: 1rem;
+  margin-bottom: 1em;
 }
 
 .hov-container a {
@@ -113,15 +113,15 @@
 
 /* Hover overlay for non-pedestal items */
 .item-box .hov-text {
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 .item-box h1 {
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 
 .item-box .icon-size {
-  height: 4rem;
+  height: 4em;
   width: auto;
-  margin: 0.5rem 1.5rem 0 0;
+  margin-right: 1.5em;
 }

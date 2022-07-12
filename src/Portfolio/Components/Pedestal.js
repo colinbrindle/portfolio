@@ -23,9 +23,12 @@ function Pedestal() {
               & Design, Landing Page, Log In / Sign-Up Function
             </p>
           </div>
-          <a href="http://this-is-war-2.herokuapp.com/" target="_blank">
+          <a
+            href="http://this-is-war-2.herokuapp.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Image
-              fluid
               src={tiw2Logo}
               alt="This is War 2 logo that links to the deployed site"
               className="icon-size"
@@ -34,9 +37,9 @@ function Pedestal() {
           <a
             href="https://github.com/Samuels1996/this-is-war-2"
             target="_blank"
+            rel="noreferrer"
           >
             <Image
-              fluid
               src={GitHub}
               alt="GitHub logo that links to This is War 2 repository"
               className="icon-size"

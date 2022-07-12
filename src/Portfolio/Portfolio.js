@@ -8,6 +8,7 @@ import Pedestal from "./Components/Pedestal";
 import TIW from "./Components/TIW";
 import UNN from "./Components/UNN";
 import Mossii from "./Components/Mossii";
+import Placeholder from "./Components/Placeholder";
 
 function Portfolio() {
   return (
@@ -23,6 +24,9 @@ function Portfolio() {
       </article>
       <article>
         <Mossii />
+      </article>
+      <article>
+        <Placeholder />
       </article>
     </main>
   );
