@@ -1,7 +1,6 @@
 import React from "react";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Image, Row } from "react-bootstrap";
 import "./Bio.css";
 
 import headshot from "./imgs/bigshot.png";
@@ -10,7 +9,12 @@ function Bio() {
   return (
     <div fluid className="bio-body hov-container">
       <div className="img-container">
-        <img fluid src={headshot} className="img-sizing"></img>
+        <img
+          fluid
+          src={headshot}
+          className="img-sizing"
+          alt="My handsome picture :)"
+        ></img>
         <div className="hov-overlay">
           <div className="hov-text">
             <h1>Hi, I'm Colin!</h1>
@@ -39,6 +43,8 @@ function Bio() {
               <a
                 href="https://www.linkedin.com/in/colin-brindle"
                 target="_blank"
+                rel="noreferrer"
+                className="bio-link"
               >
                 LinkedIn
               </a>

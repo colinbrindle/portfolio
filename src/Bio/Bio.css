@@ -20,3 +20,12 @@
     font-weight: lighter;
     font-size: 1.8em;
 }
+
+.bio-link {
+    text-decoration: none;
+    color: white;
+}
+
+.bio-link:hover {
+    color: rgba(255, 255, 255, 0.6);
+}
